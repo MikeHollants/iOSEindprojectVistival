@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3923496D201F622100351B2E /* Bck_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3923496C201F622100351B2E /* Bck_Button.png */; };
+		391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561D201FB41A003127FD /* VF-instagram-logo.png */; };
+		391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561E201FB41B003127FD /* VF-logoTweeter.png */; };
+		391A5622201FB41B003127FD /* VF-Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561F201FB41B003127FD /* VF-Facebook-logo.png */; };
+		391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5623201FB6A7003127FD /* VF-iTunes-logo.png */; };
+		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
+		391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562C201FCFC2003127FD /* Vistival-MS.png */; };
+		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
 		3923496F201F64EF00351B2E /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923496E201F64EF00351B2E /* MainScreenViewController.swift */; };
 		39234973201F657D00351B2E /* FestivalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234972201F657D00351B2E /* FestivalMapViewController.swift */; };
 		39234975201F661D00351B2E /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234974201F661D00351B2E /* LineUpViewController.swift */; };
@@ -23,7 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3923496C201F622100351B2E /* Bck_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bck_Button.png; sourceTree = "<group>"; };
+		391A561D201FB41A003127FD /* VF-instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-instagram-logo.png"; sourceTree = "<group>"; };
+		391A561E201FB41B003127FD /* VF-logoTweeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-logoTweeter.png"; sourceTree = "<group>"; };
+		391A561F201FB41B003127FD /* VF-Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-Facebook-logo.png"; sourceTree = "<group>"; };
+		391A5623201FB6A7003127FD /* VF-iTunes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-iTunes-logo.png"; sourceTree = "<group>"; };
+		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
+		391A562C201FCFC2003127FD /* Vistival-MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-MS.png"; sourceTree = "<group>"; };
+		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
 		3923496E201F64EF00351B2E /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		39234972201F657D00351B2E /* FestivalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalMapViewController.swift; sourceTree = "<group>"; };
 		39234974201F661D00351B2E /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391A562F201FD04B003127FD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				391A5630201FD325003127FD /* Annotation-pic.png */,
+				391A562B201FCFC2003127FD /* Vistival-LS.png */,
+				391A562C201FCFC2003127FD /* Vistival-MS.png */,
+				391A5623201FB6A7003127FD /* VF-iTunes-logo.png */,
+				391A561F201FB41B003127FD /* VF-Facebook-logo.png */,
+				391A561D201FB41A003127FD /* VF-instagram-logo.png */,
+				391A561E201FB41B003127FD /* VF-logoTweeter.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		45168CEA201F34F700973CA3 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +96,7 @@
 		45168CF5201F34F700973CA3 /* iOSEindprojectVistival */ = {
 			isa = PBXGroup;
 			children = (
-				3923496C201F622100351B2E /* Bck_Button.png */,
+				391A562F201FD04B003127FD /* images */,
 				45168CF6201F34F700973CA3 /* AppDelegate.swift */,
 				45168CF8201F34F700973CA3 /* ViewController.swift */,
 				45168CFA201F34F700973CA3 /* Main.storyboard */,
@@ -147,10 +173,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3923496D201F622100351B2E /* Bck_Button.png in Resources */,
+				391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */,
+				391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
+				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
 				45168CFE201F34F700973CA3 /* Assets.xcassets in Resources */,
+				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
+				391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */,
+				391A5622201FB41B003127FD /* VF-Facebook-logo.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
+				391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

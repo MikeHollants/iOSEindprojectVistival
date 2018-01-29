@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vistival-MS.png" translatesAutoresizingMaskIntoConstraints="NO" id="7EJ-hY-Pn7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7EJ-hY-Pn7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="38X-LO-RTW"/>
+                            <constraint firstAttribute="bottom" secondItem="7EJ-hY-Pn7" secondAttribute="bottom" id="JuT-Xc-kqt"/>
+                            <constraint firstItem="7EJ-hY-Pn7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="h7o-7a-1Zv"/>
+                            <constraint firstItem="7EJ-hY-Pn7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vfp-2O-pyx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="foL-wc-IgI"/>
@@ -26,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="-806"/>
+            <point key="canvasLocation" x="540" y="-806.44677661169419"/>
         </scene>
         <!--Line Up-->
         <scene sceneID="9pt-SD-mof">
@@ -244,7 +255,7 @@
                                     <constraint firstAttribute="width" constant="80" id="ESz-p2-Vb7"/>
                                     <constraint firstAttribute="height" constant="60" id="sIU-No-miy"/>
                                 </constraints>
-                                <state key="normal" title="Play music"/>
+                                <state key="normal" backgroundImage="VF-iTunes-logo.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -293,18 +304,18 @@
                                     <constraint firstAttribute="height" constant="50" id="7wi-Po-OZj"/>
                                     <constraint firstAttribute="width" constant="50" id="Ype-ag-aHb"/>
                                 </constraints>
-                                <state key="normal" title="Face"/>
+                                <state key="normal" backgroundImage="VF-Facebook-logo.png"/>
                                 <connections>
                                     <segue destination="uj2-cd-s9Q" kind="presentation" modalTransitionStyle="partialCurl" id="q6A-e3-FMI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOR-ky-PVl">
-                                <rect key="frame" x="164" y="48" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOR-ky-PVl">
+                                <rect key="frame" x="159" y="48" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="E2X-u8-0ow"/>
-                                    <constraint firstAttribute="width" constant="50" id="W6p-jc-Q97"/>
+                                    <constraint firstAttribute="width" constant="50" id="E3j-40-4Xu"/>
+                                    <constraint firstAttribute="height" constant="50" id="uKm-fa-0am"/>
                                 </constraints>
-                                <state key="normal" title="Insta"/>
+                                <state key="normal" backgroundImage="VF-instagram-logo.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eM-d7-zmm">
                                 <rect key="frame" x="56" y="48" width="45" height="50"/>
@@ -312,9 +323,9 @@
                                     <constraint firstAttribute="height" constant="50" id="j8e-de-N3o"/>
                                     <constraint firstAttribute="width" constant="45" id="q5e-Fl-hHu"/>
                                 </constraints>
-                                <state key="normal" title="twitter"/>
+                                <state key="normal" backgroundImage="VF-logoTweeter.png"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfF-YR-v4y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfF-YR-v4y">
                                 <rect key="frame" x="16" y="114" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="5Vz-H6-ZRm"/>
@@ -324,7 +335,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9BK-IS-Bxc">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9BK-IS-Bxc">
                                 <rect key="frame" x="16" y="151" width="343" height="467"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -404,13 +415,14 @@
                             <constraint firstItem="1eM-d7-zmm" firstAttribute="leading" secondItem="1fn-we-lck" secondAttribute="leading" constant="56" id="ADm-VU-bsx"/>
                             <constraint firstItem="BfF-YR-v4y" firstAttribute="leading" secondItem="1fn-we-lck" secondAttribute="leading" constant="16" id="C8X-xT-4mg"/>
                             <constraint firstItem="m6m-39-5z3" firstAttribute="top" secondItem="1fn-we-lck" secondAttribute="top" constant="28" id="Dbk-eV-a0E"/>
+                            <constraint firstItem="m6m-39-5z3" firstAttribute="leading" secondItem="OOR-ky-PVl" secondAttribute="trailing" constant="69" id="EuW-st-G0k"/>
                             <constraint firstItem="9BK-IS-Bxc" firstAttribute="leading" secondItem="1fn-we-lck" secondAttribute="leading" constant="16" id="GHu-Yt-V1W"/>
-                            <constraint firstItem="m6m-39-5z3" firstAttribute="leading" secondItem="OOR-ky-PVl" secondAttribute="trailing" constant="64" id="Mkv-8D-dhr"/>
                             <constraint firstItem="1fn-we-lck" firstAttribute="trailing" secondItem="9BK-IS-Bxc" secondAttribute="trailing" constant="16" id="Oaz-Pt-C1w"/>
                             <constraint firstItem="BfF-YR-v4y" firstAttribute="top" secondItem="OOR-ky-PVl" secondAttribute="bottom" constant="16" id="Tg2-wn-X9T"/>
                             <constraint firstItem="1fn-we-lck" firstAttribute="trailing" secondItem="BfF-YR-v4y" secondAttribute="trailing" constant="16" id="axS-kg-Ck8"/>
                             <constraint firstItem="1eM-d7-zmm" firstAttribute="top" secondItem="1fn-we-lck" secondAttribute="top" constant="28" id="keq-AX-myU"/>
                             <constraint firstItem="9BK-IS-Bxc" firstAttribute="top" secondItem="BfF-YR-v4y" secondAttribute="bottom" constant="8" id="nVM-Ue-gRW"/>
+                            <constraint firstItem="OOR-ky-PVl" firstAttribute="top" secondItem="1fn-we-lck" secondAttribute="top" constant="28" id="pzM-AS-lwf"/>
                             <constraint firstItem="1fn-we-lck" firstAttribute="trailing" secondItem="m6m-39-5z3" secondAttribute="trailing" constant="47" id="zNa-RF-iBB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1fn-we-lck"/>
@@ -463,7 +475,7 @@
                                     <constraint firstAttribute="height" constant="50" id="eTx-Rj-M2b"/>
                                     <constraint firstAttribute="width" constant="50" id="oU9-5X-Q3j"/>
                                 </constraints>
-                                <state key="normal" title="Face"/>
+                                <state key="normal" backgroundImage="VF-Facebook-logo.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-et-pw3">
                                 <rect key="frame" x="157" y="587" width="50" height="50"/>
@@ -471,7 +483,7 @@
                                     <constraint firstAttribute="height" constant="50" id="KVk-s5-gx3"/>
                                     <constraint firstAttribute="width" constant="50" id="q1L-Lo-YmL"/>
                                 </constraints>
-                                <state key="normal" title="Insta"/>
+                                <state key="normal" backgroundImage="VF-instagram-logo.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gU-3v-qZ1">
                                 <rect key="frame" x="44" y="587" width="50" height="50"/>
@@ -479,7 +491,7 @@
                                     <constraint firstAttribute="width" constant="50" id="6Cl-p5-XuY"/>
                                     <constraint firstAttribute="height" constant="50" id="xvY-8K-pyk"/>
                                 </constraints>
-                                <state key="normal" title="twitter"/>
+                                <state key="normal" backgroundImage="VF-logoTweeter.png"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of the post" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4z-2Y-Agl">
                                 <rect key="frame" x="188" y="57" width="171" height="21"/>
@@ -555,6 +567,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2xi-SB-Dh3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MDl-bN-xrE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -570,6 +583,13 @@
             <point key="canvasLocation" x="-410" y="-806"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="VF-Facebook-logo.png" width="50" height="50"/>
+        <image name="VF-iTunes-logo.png" width="80" height="60"/>
+        <image name="VF-instagram-logo.png" width="50" height="50"/>
+        <image name="VF-logoTweeter.png" width="50" height="50"/>
+        <image name="Vistival-MS.png" width="375" height="667"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="7fb-CI-LQJ"/>
     </inferredMetricsTieBreakers>
