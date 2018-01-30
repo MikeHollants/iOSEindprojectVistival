@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561D201FB41A003127FD /* VF-instagram-logo.png */; };
-		391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561E201FB41B003127FD /* VF-logoTweeter.png */; };
-		391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5623201FB6A7003127FD /* VF-iTunes-logo.png */; };
 		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
 		391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562C201FCFC2003127FD /* Vistival-MS.png */; };
 		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
@@ -19,6 +16,11 @@
 		39234975201F661D00351B2E /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234974201F661D00351B2E /* LineUpViewController.swift */; };
 		39234977201F668300351B2E /* NewsShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234976201F668300351B2E /* NewsShareViewController.swift */; };
 		39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234978201F69ED00351B2E /* BandInfoViewController.swift */; };
+		394FC2FC20206170005E5C63 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FB20206170005E5C63 /* background.png */; };
+		394FC2FE20206442005E5C63 /* VF-logoTweeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FD20206442005E5C63 /* VF-logoTweeter.png */; };
+		394FC302202064B4005E5C63 /* VF-instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */; };
+		394FC303202064B4005E5C63 /* VF-iTunes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC300202064B4005E5C63 /* VF-iTunes-logo.png */; };
+		394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC301202064B4005E5C63 /* VF-Facebook-logo.png */; };
 		45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF6201F34F700973CA3 /* AppDelegate.swift */; };
 		45168CF9201F34F700973CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF8201F34F700973CA3 /* ViewController.swift */; };
 		45168CFC201F34F700973CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFA201F34F700973CA3 /* Main.storyboard */; };
@@ -30,9 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		391A561D201FB41A003127FD /* VF-instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-instagram-logo.png"; sourceTree = "<group>"; };
-		391A561E201FB41B003127FD /* VF-logoTweeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-logoTweeter.png"; sourceTree = "<group>"; };
-		391A5623201FB6A7003127FD /* VF-iTunes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-iTunes-logo.png"; sourceTree = "<group>"; };
 		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
 		391A562C201FCFC2003127FD /* Vistival-MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-MS.png"; sourceTree = "<group>"; };
 		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
@@ -42,6 +41,11 @@
 		39234974201F661D00351B2E /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		39234976201F668300351B2E /* NewsShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsShareViewController.swift; sourceTree = "<group>"; };
 		39234978201F69ED00351B2E /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
+		394FC2FB20206170005E5C63 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		394FC2FD20206442005E5C63 /* VF-logoTweeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-logoTweeter.png"; sourceTree = "<group>"; };
+		394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-instagram-logo.png"; sourceTree = "<group>"; };
+		394FC300202064B4005E5C63 /* VF-iTunes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-iTunes-logo.png"; sourceTree = "<group>"; };
+		394FC301202064B4005E5C63 /* VF-Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-Facebook-logo.png"; sourceTree = "<group>"; };
 		45168CF3201F34F700973CA3 /* iOSEindprojectVistival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEindprojectVistival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45168CF6201F34F700973CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45168CF8201F34F700973CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,14 +72,16 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				394FC301202064B4005E5C63 /* VF-Facebook-logo.png */,
+				394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */,
+				394FC300202064B4005E5C63 /* VF-iTunes-logo.png */,
+				394FC2FD20206442005E5C63 /* VF-logoTweeter.png */,
+				394FC2FB20206170005E5C63 /* background.png */,
 				391A5635201FD6F8003127FD /* day1-ico.png */,
 				391A5634201FD6F8003127FD /* day2-ico.png */,
 				391A5630201FD325003127FD /* Annotation-pic.png */,
 				391A562B201FCFC2003127FD /* Vistival-LS.png */,
 				391A562C201FCFC2003127FD /* Vistival-MS.png */,
-				391A5623201FB6A7003127FD /* VF-iTunes-logo.png */,
-				391A561D201FB41A003127FD /* VF-instagram-logo.png */,
-				391A561E201FB41B003127FD /* VF-logoTweeter.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -185,16 +191,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */,
-				391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */,
+				394FC2FC20206170005E5C63 /* background.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
+				394FC303202064B4005E5C63 /* VF-iTunes-logo.png in Resources */,
 				391A5636201FD6F9003127FD /* day2-ico.png in Resources */,
+				394FC2FE20206442005E5C63 /* VF-logoTweeter.png in Resources */,
+				394FC302202064B4005E5C63 /* VF-instagram-logo.png in Resources */,
 				45168CFE201F34F700973CA3 /* Assets.xcassets in Resources */,
 				391A5637201FD6F9003127FD /* day1-ico.png in Resources */,
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
 				391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
-				391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */,
+				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

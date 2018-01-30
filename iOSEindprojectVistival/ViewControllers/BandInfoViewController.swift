@@ -13,7 +13,8 @@ class BandInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //Set a background image in place of the color
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
     }
 
     override func didReceiveMemoryWarning() {
