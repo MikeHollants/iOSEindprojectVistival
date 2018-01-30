@@ -14,6 +14,7 @@
 		45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFF201F34F700973CA3 /* LaunchScreen.storyboard */; };
 		45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D0C201F4AAC00973CA3 /* Artist.swift */; };
 		45168D0F201F4AB800973CA3 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D0E201F4AB800973CA3 /* Stage.swift */; };
+		45168D11201F61B300973CA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D10201F61B300973CA3 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		45168D02201F34F800973CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45168D0C201F4AAC00973CA3 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		45168D0E201F4AB800973CA3 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		45168D10201F61B300973CA3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				45168CF6201F34F700973CA3 /* AppDelegate.swift */,
-				45168CF8201F34F700973CA3 /* ViewController.swift */,
+				45168D12201F61B800973CA3 /* ViewControllers */,
 				45168CFA201F34F700973CA3 /* Main.storyboard */,
 				45168CFD201F34F700973CA3 /* Assets.xcassets */,
 				45168CFF201F34F700973CA3 /* LaunchScreen.storyboard */,
@@ -68,6 +70,15 @@
 				45168D0E201F4AB800973CA3 /* Stage.swift */,
 			);
 			path = iOSEindprojectVistival;
+			sourceTree = "<group>";
+		};
+		45168D12201F61B800973CA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45168CF8201F34F700973CA3 /* ViewController.swift */,
+				45168D10201F61B300973CA3 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 				45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */,
 				45168CF9201F34F700973CA3 /* ViewController.swift in Sources */,
 				45168D0F201F4AB800973CA3 /* Stage.swift in Sources */,
+				45168D11201F61B300973CA3 /* MapViewController.swift in Sources */,
 				45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
