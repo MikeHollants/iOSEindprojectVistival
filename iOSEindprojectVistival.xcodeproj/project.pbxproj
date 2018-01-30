@@ -27,7 +27,6 @@
 		45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D0C201F4AAC00973CA3 /* Artist.swift */; };
 		45168D0F201F4AB800973CA3 /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D0E201F4AB800973CA3 /* Stage.swift */; };
 		45168D11201F61B300973CA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D10201F61B300973CA3 /* MapViewController.swift */; };
-		45168D1420206F6E00973CA3 /* VF-Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45168D1320206F6E00973CA3 /* VF-Facebook-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +52,6 @@
 		45168D0C201F4AAC00973CA3 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		45168D0E201F4AB800973CA3 /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
 		45168D10201F61B300973CA3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		45168D1320206F6E00973CA3 /* VF-Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-Facebook-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
-				45168D1320206F6E00973CA3 /* VF-Facebook-logo.png */,
 				391A5635201FD6F8003127FD /* day1-ico.png */,
 				391A5634201FD6F8003127FD /* day2-ico.png */,
 				391A5630201FD325003127FD /* Annotation-pic.png */,
@@ -191,7 +188,6 @@
 				391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
-				45168D1420206F6E00973CA3 /* VF-Facebook-logo.png in Resources */,
 				391A5636201FD6F9003127FD /* day2-ico.png in Resources */,
 				45168CFE201F34F700973CA3 /* Assets.xcassets in Resources */,
 				391A5637201FD6F9003127FD /* day1-ico.png in Resources */,
