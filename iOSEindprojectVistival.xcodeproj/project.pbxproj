@@ -109,8 +109,8 @@
 				45168CF6201F34F700973CA3 /* AppDelegate.swift */,
 				45168D12201F61B800973CA3 /* ViewControllers */,
 				45168CFA201F34F700973CA3 /* Main.storyboard */,
-				45168CFD201F34F700973CA3 /* Assets.xcassets */,
 				45168CFF201F34F700973CA3 /* LaunchScreen.storyboard */,
+				45168CFD201F34F700973CA3 /* Assets.xcassets */,
 				45168D02201F34F800973CA3 /* Info.plist */,
 				45168D0C201F4AAC00973CA3 /* Artist.swift */,
 				45168D0E201F4AB800973CA3 /* Stage.swift */,
@@ -201,7 +201,6 @@
 				45168CFE201F34F700973CA3 /* Assets.xcassets in Resources */,
 				391A5637201FD6F9003127FD /* day1-ico.png in Resources */,
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
-				391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
 				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
 			);

@@ -198,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ezh-V3-ATL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1228" y="-30"/>
+            <point key="canvasLocation" x="-1625" y="-224"/>
         </scene>
         <!--Band Infos-->
         <scene sceneID="ZfW-ud-8x9">
@@ -446,7 +446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eS6-TT-5Cm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="-87"/>
+            <point key="canvasLocation" x="855" y="-244"/>
         </scene>
         <!--Share View-->
         <scene sceneID="NcG-eF-HBI">
@@ -567,7 +567,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nem-wI-rBn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-410" y="-806"/>
+            <point key="canvasLocation" x="-522" y="-1105"/>
         </scene>
     </scenes>
     <resources>
