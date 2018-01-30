@@ -14,6 +14,7 @@ class TopPostTableViewCell: UITableViewCell {
     @IBOutlet weak var ivTopPost: UIImageView!
     @IBOutlet weak var lbTitleTopPost: UILabel!
     @IBOutlet weak var lbDateTopPost: UILabel!
+    @IBOutlet weak var lbAuthor: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
