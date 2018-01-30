@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
-		391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562C201FCFC2003127FD /* Vistival-MS.png */; };
 		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
 		391A5636201FD6F9003127FD /* day2-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5634201FD6F8003127FD /* day2-ico.png */; };
 		391A5637201FD6F9003127FD /* day1-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5635201FD6F8003127FD /* day1-ico.png */; };
@@ -33,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
-		391A562C201FCFC2003127FD /* Vistival-MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-MS.png"; sourceTree = "<group>"; };
 		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
 		391A5634201FD6F8003127FD /* day2-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day2-ico.png"; sourceTree = "<group>"; };
 		391A5635201FD6F8003127FD /* day1-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day1-ico.png"; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				391A5634201FD6F8003127FD /* day2-ico.png */,
 				391A5630201FD325003127FD /* Annotation-pic.png */,
 				391A562B201FCFC2003127FD /* Vistival-LS.png */,
-				391A562C201FCFC2003127FD /* Vistival-MS.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -190,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */,
 				394FC2FC20206170005E5C63 /* background.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
