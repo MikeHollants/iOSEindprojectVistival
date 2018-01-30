@@ -22,6 +22,11 @@
 		394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC301202064B4005E5C63 /* VF-Facebook-logo.png */; };
 		397F7D082020A02F0044542B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7D072020A02F0044542B /* Post.swift */; };
 		397F7D0C2020A8AD0044542B /* reel-big-fish-name.png in Resources */ = {isa = PBXBuildFile; fileRef = 397F7D0B2020A8AD0044542B /* reel-big-fish-name.png */; };
+		397F7D102020B69F0044542B /* post1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397F7D0D2020B69F0044542B /* post1.jpg */; };
+		397F7D112020B69F0044542B /* post2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397F7D0E2020B69F0044542B /* post2.jpg */; };
+		397F7D122020B69F0044542B /* post3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397F7D0F2020B69F0044542B /* post3.jpg */; };
+		397F7D142020BA530044542B /* TopPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7D132020BA530044542B /* TopPostTableViewCell.swift */; };
+		397F7D162020BA6C0044542B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7D152020BA6C0044542B /* PostTableViewCell.swift */; };
 		45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF6201F34F700973CA3 /* AppDelegate.swift */; };
 		45168CF9201F34F700973CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF8201F34F700973CA3 /* ViewController.swift */; };
 		45168CFC201F34F700973CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFA201F34F700973CA3 /* Main.storyboard */; };
@@ -47,6 +52,11 @@
 		394FC301202064B4005E5C63 /* VF-Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-Facebook-logo.png"; sourceTree = "<group>"; };
 		397F7D072020A02F0044542B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		397F7D0B2020A8AD0044542B /* reel-big-fish-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reel-big-fish-name.png"; sourceTree = "<group>"; };
+		397F7D0D2020B69F0044542B /* post1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = post1.jpg; sourceTree = "<group>"; };
+		397F7D0E2020B69F0044542B /* post2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = post2.jpg; sourceTree = "<group>"; };
+		397F7D0F2020B69F0044542B /* post3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = post3.jpg; sourceTree = "<group>"; };
+		397F7D132020BA530044542B /* TopPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPostTableViewCell.swift; sourceTree = "<group>"; };
+		397F7D152020BA6C0044542B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		45168CF3201F34F700973CA3 /* iOSEindprojectVistival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEindprojectVistival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45168CF6201F34F700973CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45168CF8201F34F700973CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +82,9 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				397F7D0D2020B69F0044542B /* post1.jpg */,
+				397F7D0E2020B69F0044542B /* post2.jpg */,
+				397F7D0F2020B69F0044542B /* post3.jpg */,
 				397F7D0B2020A8AD0044542B /* reel-big-fish-name.png */,
 				394FC301202064B4005E5C63 /* VF-Facebook-logo.png */,
 				394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */,
@@ -127,6 +140,8 @@
 				39234974201F661D00351B2E /* LineUpViewController.swift */,
 				39234978201F69ED00351B2E /* BandInfoViewController.swift */,
 				39234976201F668300351B2E /* NewsShareViewController.swift */,
+				397F7D132020BA530044542B /* TopPostTableViewCell.swift */,
+				397F7D152020BA6C0044542B /* PostTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				394FC2FC20206170005E5C63 /* background.png in Resources */,
+				397F7D122020B69F0044542B /* post3.jpg in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
+				397F7D102020B69F0044542B /* post1.jpg in Resources */,
 				394FC303202064B4005E5C63 /* VF-iTunes-logo.png in Resources */,
 				391A5636201FD6F9003127FD /* day2-ico.png in Resources */,
 				397F7D0C2020A8AD0044542B /* reel-big-fish-name.png in Resources */,
@@ -203,6 +220,7 @@
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
 				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
+				397F7D112020B69F0044542B /* post2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397F7D162020BA6C0044542B /* PostTableViewCell.swift in Sources */,
 				3923496F201F64EF00351B2E /* MainScreenViewController.swift in Sources */,
 				39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */,
 				39234975201F661D00351B2E /* LineUpViewController.swift in Sources */,
+				397F7D142020BA530044542B /* TopPostTableViewCell.swift in Sources */,
 				45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */,
 				45168CF9201F34F700973CA3 /* ViewController.swift in Sources */,
 				39234977201F668300351B2E /* NewsShareViewController.swift in Sources */,
