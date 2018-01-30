@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561D201FB41A003127FD /* VF-instagram-logo.png */; };
+		391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A561E201FB41B003127FD /* VF-logoTweeter.png */; };
+		391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5623201FB6A7003127FD /* VF-iTunes-logo.png */; };
+		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
+		391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562C201FCFC2003127FD /* Vistival-MS.png */; };
+		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
+		391A5633201FD49E003127FD /* VF-Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5632201FD49D003127FD /* VF-Facebook-logo.png */; };
+		391A5636201FD6F9003127FD /* day2-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5634201FD6F8003127FD /* day2-ico.png */; };
+		391A5637201FD6F9003127FD /* day1-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5635201FD6F8003127FD /* day1-ico.png */; };
+		3923496F201F64EF00351B2E /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923496E201F64EF00351B2E /* MainScreenViewController.swift */; };
+		39234973201F657D00351B2E /* FestivalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234972201F657D00351B2E /* FestivalMapViewController.swift */; };
+		39234975201F661D00351B2E /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234974201F661D00351B2E /* LineUpViewController.swift */; };
+		39234977201F668300351B2E /* NewsShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234976201F668300351B2E /* NewsShareViewController.swift */; };
+		39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234978201F69ED00351B2E /* BandInfoViewController.swift */; };
 		45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF6201F34F700973CA3 /* AppDelegate.swift */; };
 		45168CF9201F34F700973CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF8201F34F700973CA3 /* ViewController.swift */; };
 		45168CFC201F34F700973CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFA201F34F700973CA3 /* Main.storyboard */; };
@@ -18,6 +32,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391A561D201FB41A003127FD /* VF-instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-instagram-logo.png"; sourceTree = "<group>"; };
+		391A561E201FB41B003127FD /* VF-logoTweeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-logoTweeter.png"; sourceTree = "<group>"; };
+		391A5623201FB6A7003127FD /* VF-iTunes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-iTunes-logo.png"; sourceTree = "<group>"; };
+		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
+		391A562C201FCFC2003127FD /* Vistival-MS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-MS.png"; sourceTree = "<group>"; };
+		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
+		391A5632201FD49D003127FD /* VF-Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VF-Facebook-logo.png"; path = "../VF-Facebook-logo.png"; sourceTree = "<group>"; };
+		391A5634201FD6F8003127FD /* day2-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day2-ico.png"; sourceTree = "<group>"; };
+		391A5635201FD6F8003127FD /* day1-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day1-ico.png"; sourceTree = "<group>"; };
+		3923496E201F64EF00351B2E /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		39234972201F657D00351B2E /* FestivalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalMapViewController.swift; sourceTree = "<group>"; };
+		39234974201F661D00351B2E /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
+		39234976201F668300351B2E /* NewsShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsShareViewController.swift; sourceTree = "<group>"; };
+		39234978201F69ED00351B2E /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
 		45168CF3201F34F700973CA3 /* iOSEindprojectVistival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEindprojectVistival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45168CF6201F34F700973CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45168CF8201F34F700973CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391A562F201FD04B003127FD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				391A5635201FD6F8003127FD /* day1-ico.png */,
+				391A5634201FD6F8003127FD /* day2-ico.png */,
+				391A5632201FD49D003127FD /* VF-Facebook-logo.png */,
+				391A5630201FD325003127FD /* Annotation-pic.png */,
+				391A562B201FCFC2003127FD /* Vistival-LS.png */,
+				391A562C201FCFC2003127FD /* Vistival-MS.png */,
+				391A5623201FB6A7003127FD /* VF-iTunes-logo.png */,
+				391A561D201FB41A003127FD /* VF-instagram-logo.png */,
+				391A561E201FB41B003127FD /* VF-logoTweeter.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		45168CEA201F34F700973CA3 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +104,7 @@
 		45168CF5201F34F700973CA3 /* iOSEindprojectVistival */ = {
 			isa = PBXGroup;
 			children = (
+				391A562F201FD04B003127FD /* images */,
 				45168CF6201F34F700973CA3 /* AppDelegate.swift */,
 				45168D12201F61B800973CA3 /* ViewControllers */,
 				45168CFA201F34F700973CA3 /* Main.storyboard */,
@@ -68,6 +113,11 @@
 				45168D02201F34F800973CA3 /* Info.plist */,
 				45168D0C201F4AAC00973CA3 /* Artist.swift */,
 				45168D0E201F4AB800973CA3 /* Stage.swift */,
+				3923496E201F64EF00351B2E /* MainScreenViewController.swift */,
+				39234972201F657D00351B2E /* FestivalMapViewController.swift */,
+				39234974201F661D00351B2E /* LineUpViewController.swift */,
+				39234976201F668300351B2E /* NewsShareViewController.swift */,
+				39234978201F69ED00351B2E /* BandInfoViewController.swift */,
 			);
 			path = iOSEindprojectVistival;
 			sourceTree = "<group>";
@@ -140,9 +190,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391A562E201FCFC2003127FD /* Vistival-MS.png in Resources */,
+				391A5620201FB41B003127FD /* VF-instagram-logo.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
+				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
+				391A5636201FD6F9003127FD /* day2-ico.png in Resources */,
 				45168CFE201F34F700973CA3 /* Assets.xcassets in Resources */,
+				391A5637201FD6F9003127FD /* day1-ico.png in Resources */,
+				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
+				391A5633201FD49E003127FD /* VF-Facebook-logo.png in Resources */,
+				391A5624201FB6A7003127FD /* VF-iTunes-logo.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
+				391A5621201FB41B003127FD /* VF-logoTweeter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3923496F201F64EF00351B2E /* MainScreenViewController.swift in Sources */,
+				39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */,
+				39234975201F661D00351B2E /* LineUpViewController.swift in Sources */,
+				39234973201F657D00351B2E /* FestivalMapViewController.swift in Sources */,
 				45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */,
 				45168CF9201F34F700973CA3 /* ViewController.swift in Sources */,
+				39234977201F668300351B2E /* NewsShareViewController.swift in Sources */,
 				45168D0F201F4AB800973CA3 /* Stage.swift in Sources */,
 				45168D11201F61B300973CA3 /* MapViewController.swift in Sources */,
 				45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */,

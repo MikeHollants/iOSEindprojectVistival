@@ -43,4 +43,16 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="VF-Facebook-logo.png" width="50" height="50"/>
+        <image name="VF-iTunes-logo.png" width="80" height="60"/>
+        <image name="VF-instagram-logo.png" width="50" height="50"/>
+        <image name="VF-logoTweeter.png" width="50" height="50"/>
+        <image name="Vistival-MS.png" width="375" height="667"/>
+        <image name="day1-ico.png" width="80" height="50"/>
+        <image name="day2-ico.png" width="80" height="50"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="7fb-CI-LQJ"/>
+    </inferredMetricsTieBreakers>
 </document>
