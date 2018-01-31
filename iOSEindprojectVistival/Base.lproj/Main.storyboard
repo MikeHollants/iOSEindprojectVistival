@@ -464,7 +464,7 @@
                                                     <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <size key="shadowOffset" width="0.0" height="2"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOU-o2-hoe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOU-o2-hoe">
                                                     <rect key="frame" x="218" y="56" width="150" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="zYP-Sm-fLk"/>
@@ -493,7 +493,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="ivPost" destination="1Pi-Uh-avi" id="P6a-3z-ewH"/>
-                                            <outlet property="lbDatePost" destination="oOU-o2-hoe" id="ah0-0w-udH"/>
+                                            <outlet property="lbAuthor" destination="oOU-o2-hoe" id="qfY-ha-MIc"/>
                                             <outlet property="lbTitlePost" destination="J1F-UV-cPy" id="0fR-kS-dd2"/>
                                             <segue destination="uj2-cd-s9Q" kind="presentation" modalTransitionStyle="partialCurl" id="0pP-ZV-4DG"/>
                                         </connections>
@@ -561,19 +561,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQF-71-vyi">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQF-71-vyi">
                                 <rect key="frame" x="303" y="535" width="50" height="50"/>
                                 <state key="normal" backgroundImage="VF-Facebook-logo.png"/>
+                                <connections>
+                                    <action selector="popMedia:" destination="uj2-cd-s9Q" eventType="touchUpInside" id="F1h-wA-PuI"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-et-pw3">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-et-pw3">
                                 <rect key="frame" x="163" y="535" width="50" height="50"/>
                                 <state key="normal" backgroundImage="VF-instagram-logo.png"/>
+                                <connections>
+                                    <action selector="popMedia:" destination="uj2-cd-s9Q" eventType="touchUpInside" id="lkg-cY-qaC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gU-3v-qZ1">
                                 <rect key="frame" x="29" y="535" width="50" height="50"/>
                                 <state key="normal" backgroundImage="VF-logoTweeter.png"/>
+                                <connections>
+                                    <action selector="popMedia:" destination="uj2-cd-s9Q" eventType="touchUpInside" id="IIs-kC-s5w"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR6-Wo-HsL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR6-Wo-HsL">
                                 <rect key="frame" x="182" y="444" width="171" height="23"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldItalicMT" family="Arial" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

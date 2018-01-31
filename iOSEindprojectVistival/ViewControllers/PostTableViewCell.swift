@@ -13,7 +13,7 @@ class PostTableViewCell: UITableViewCell {
     
     @IBOutlet weak var ivPost: UIImageView!
     @IBOutlet weak var lbTitlePost: UILabel!
-    @IBOutlet weak var lbDatePost: UILabel!
+    @IBOutlet weak var lbAuthor: UILabel!
     
     
     

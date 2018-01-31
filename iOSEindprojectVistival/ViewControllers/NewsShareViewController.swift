@@ -32,13 +32,13 @@ class NewsShareViewController: UIViewController , UITableViewDelegate , UITableV
         
         let datePost:Date = Date.init()
         
-        let postPic1:UIImage = UIImage.init(named: "post2.jpg")!
-        let postPic2:UIImage = UIImage.init(named: "post1.jpg")!
+        let postPic1:UIImage = UIImage.init(named: "post1.jpg")!
+        let postPic2:UIImage = UIImage.init(named: "post2.jpg")!
         let postPic3:UIImage = UIImage.init(named: "post3.jpg")!
         
-        let post1:Post = Post.init(title: "Facebook 1", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
-        let post2:Post = Post.init(title: "Facebook 2", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post3:Post = Post.init(title: "Facebook 3", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post1:Post = Post.init(title: "Enjoy the Vistival", author: "Fanny", content: postTxt, date: datePost, image: postPic1)
+        let post2:Post = Post.init(title: "Color mix at Vistival", author: "Ronny", content: postTxt, date: datePost, image: postPic2)
+        let post3:Post = Post.init(title: "See, Sun & Shrimps at Vistival", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
         let post4:Post = Post.init(title: "Facebook 4", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
         let post5:Post = Post.init(title: "Facebook 5", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
         let post6:Post = Post.init(title: "Facebook 6", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
@@ -132,14 +132,11 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
                 let cell:PostTableViewCell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath) as! PostTableViewCell
                 
                 let Post = currentList[indexPath.row]
-                let formater = DateFormatter()
-                formater.dateStyle = .short
-                formater.timeStyle = .short
-                let date = Post.date
+                
                 
                 cell.ivPost.image = Post.image
                 cell.lbTitlePost.text = Post.title
-                cell.lbDatePost.text = formater.string(from: date)
+                cell.lbAuthor.text = Post.author
                 
                 return cell as UITableViewCell
                 

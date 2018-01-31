@@ -50,6 +50,120 @@ class PostDetailsViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func popMedia(_ sender: UIButton){
+        
+        switch sender.tag {
+        case 0:
+            
+            let titlepop = "Log in to Tweeter"
+            
+            let pop = UIAlertController.init(title: titlepop, message: nil, preferredStyle: .alert)
+            
+            
+            pop.addTextField(configurationHandler:{ (textField:UITextField)-> Void in
+                textField.placeholder = "Username"
+            })
+            pop.addTextField { (textField:UITextField)-> Void in
+                textField.placeholder = "Password"
+                textField.keyboardType = .default
+            }
+            
+            
+            let okHandler = {(action:UIAlertAction!) -> Void in
+                let username = pop.textFields?[0]
+                let password = pop.textFields?[1]
+                print ("username :\(username?.text as! String)  password :\(password?.text as! String)")
+            }
+            
+            let okAction = UIAlertAction.init(title: "Share", style: .default, handler: okHandler)
+            
+            
+            let cancelAction = UIAlertAction.init(title: "Cancel", style: .cancel, handler: nil)
+            
+            pop.addAction(okAction)
+            pop.addAction(cancelAction)
+            
+            self.present(pop, animated: true, completion: nil)
+            
+        case 1:
+            
+            let titlepop = "Log in to Instagram"
+            
+            let pop = UIAlertController.init(title: titlepop, message: nil, preferredStyle: .alert)
+            
+            
+            pop.addTextField(configurationHandler:{ (textField:UITextField)-> Void in
+                textField.placeholder = "Username"
+            })
+            pop.addTextField { (textField:UITextField)-> Void in
+                textField.placeholder = "Password"
+                textField.keyboardType = .default
+            }
+            
+            
+            let okHandler = {(action:UIAlertAction!) -> Void in
+                let username = pop.textFields?[0]
+                let password = pop.textFields?[1]
+                print ("username :\(username?.text as! String)  password :\(password?.text as! String)")
+            }
+            
+            let okAction = UIAlertAction.init(title: "Share", style: .default, handler: okHandler)
+            
+            
+            let cancelAction = UIAlertAction.init(title: "Cancel", style: .cancel, handler: nil)
+            
+            pop.addAction(okAction)
+            pop.addAction(cancelAction)
+            
+            self.present(pop, animated: true, completion: nil)
+            
+        case 2:
+            
+            let titlepop = "Log in to Facebook"
+            
+            let pop = UIAlertController.init(title: titlepop, message: nil, preferredStyle: .alert)
+            
+            
+            pop.addTextField(configurationHandler:{ (textField:UITextField)-> Void in
+                textField.placeholder = "Username"
+            })
+            pop.addTextField { (textField:UITextField)-> Void in
+                textField.placeholder = "Password"
+                textField.keyboardType = .default
+            }
+            
+            
+            let okHandler = {(action:UIAlertAction!) -> Void in
+                let username = pop.textFields?[0]
+                let password = pop.textFields?[1]
+                print ("username :\(username?.text as! String)  password :\(password?.text as! String)")
+            }
+            
+            let okAction = UIAlertAction.init(title: "Share", style: .default, handler: okHandler)
+            
+            
+            let cancelAction = UIAlertAction.init(title: "Cancel", style: .cancel, handler: nil)
+            
+            pop.addAction(okAction)
+            pop.addAction(cancelAction)
+            
+            self.present(pop, animated: true, completion: nil)
+            
+        default:
+            
+            
+            let pop = UIAlertController.init(title: "Warning", message: "System malfunction", preferredStyle: .alert)
+            
+            
+            let okAction = UIAlertAction.init(title: "Ok", style: .default, handler: nil)
+            
+            pop.addAction(okAction)
+            
+            self.present(pop, animated: true, completion: nil)
+            
+        }
+        
+    }
     
     
     /*
