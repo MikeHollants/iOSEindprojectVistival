@@ -15,6 +15,7 @@
 		39234975201F661D00351B2E /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234974201F661D00351B2E /* LineUpViewController.swift */; };
 		39234977201F668300351B2E /* NewsShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234976201F668300351B2E /* NewsShareViewController.swift */; };
 		39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39234978201F69ED00351B2E /* BandInfoViewController.swift */; };
+		3933AB002021E7E600FEC5FA /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3933AAFF2021E7E600FEC5FA /* PostDetailsViewController.swift */; };
 		394FC2FC20206170005E5C63 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FB20206170005E5C63 /* background.png */; };
 		394FC2FE20206442005E5C63 /* VF-logoTweeter.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FD20206442005E5C63 /* VF-logoTweeter.png */; };
 		394FC302202064B4005E5C63 /* VF-instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */; };
@@ -45,6 +46,7 @@
 		39234974201F661D00351B2E /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		39234976201F668300351B2E /* NewsShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsShareViewController.swift; sourceTree = "<group>"; };
 		39234978201F69ED00351B2E /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
+		3933AAFF2021E7E600FEC5FA /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 		394FC2FB20206170005E5C63 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		394FC2FD20206442005E5C63 /* VF-logoTweeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-logoTweeter.png"; sourceTree = "<group>"; };
 		394FC2FF202064B4005E5C63 /* VF-instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VF-instagram-logo.png"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				39234976201F668300351B2E /* NewsShareViewController.swift */,
 				397F7D132020BA530044542B /* TopPostTableViewCell.swift */,
 				397F7D152020BA6C0044542B /* PostTableViewCell.swift */,
+				3933AAFF2021E7E600FEC5FA /* PostDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				45168CF9201F34F700973CA3 /* ViewController.swift in Sources */,
 				39234977201F668300351B2E /* NewsShareViewController.swift in Sources */,
 				45168D11201F61B300973CA3 /* MapViewController.swift in Sources */,
+				3933AB002021E7E600FEC5FA /* PostDetailsViewController.swift in Sources */,
 				45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */,
 				397F7D082020A02F0044542B /* Post.swift in Sources */,
 			);
