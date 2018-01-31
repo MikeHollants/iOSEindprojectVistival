@@ -46,6 +46,12 @@ class PostDetailsViewController: UIViewController {
     }
     
 
+    @IBAction func btnClose() {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
