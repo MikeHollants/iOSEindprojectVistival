@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3905995E202251E9004AE805 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3905995D202251E9004AE805 /* close.png */; };
 		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
 		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
 		391A5636201FD6F9003127FD /* day2-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5634201FD6F8003127FD /* day2-ico.png */; };
@@ -29,6 +28,7 @@
 		397F7D122020B69F0044542B /* post3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397F7D0F2020B69F0044542B /* post3.jpg */; };
 		397F7D142020BA530044542B /* TopPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7D132020BA530044542B /* TopPostTableViewCell.swift */; };
 		397F7D162020BA6C0044542B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7D152020BA6C0044542B /* PostTableViewCell.swift */; };
+		39F91B492023034400939C50 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F91B482023034400939C50 /* close.png */; };
 		45168CF7201F34F700973CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF6201F34F700973CA3 /* AppDelegate.swift */; };
 		45168CF9201F34F700973CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168CF8201F34F700973CA3 /* ViewController.swift */; };
 		45168CFC201F34F700973CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFA201F34F700973CA3 /* Main.storyboard */; };
@@ -39,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3905995D202251E9004AE805 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = ../../../close.png; sourceTree = "<group>"; };
 		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
 		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
 		391A5634201FD6F8003127FD /* day2-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day2-ico.png"; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		397F7D0F2020B69F0044542B /* post3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = post3.jpg; sourceTree = "<group>"; };
 		397F7D132020BA530044542B /* TopPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPostTableViewCell.swift; sourceTree = "<group>"; };
 		397F7D152020BA6C0044542B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		39F91B482023034400939C50 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		45168CF3201F34F700973CA3 /* iOSEindprojectVistival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSEindprojectVistival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45168CF6201F34F700973CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45168CF8201F34F700973CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
-				3905995D202251E9004AE805 /* close.png */,
+				39F91B482023034400939C50 /* close.png */,
 				397F7D0D2020B69F0044542B /* post1.jpg */,
 				397F7D0E2020B69F0044542B /* post2.jpg */,
 				397F7D0F2020B69F0044542B /* post3.jpg */,
@@ -211,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3905995E202251E9004AE805 /* close.png in Resources */,
 				394FC2FC20206170005E5C63 /* background.png in Resources */,
 				397F7D122020B69F0044542B /* post3.jpg in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
@@ -227,6 +226,7 @@
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
 				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
+				39F91B492023034400939C50 /* close.png in Resources */,
 				397F7D112020B69F0044542B /* post2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
