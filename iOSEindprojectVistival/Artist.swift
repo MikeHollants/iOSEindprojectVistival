@@ -26,6 +26,7 @@ class Artist {
         self.website = website
         self.musicPreview = musicPreview
         self.showtime = showtime
+        self.location = location
     }
     
 }

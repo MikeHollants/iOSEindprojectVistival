@@ -36,6 +36,9 @@
 		45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45168CFF201F34F700973CA3 /* LaunchScreen.storyboard */; };
 		45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D0C201F4AAC00973CA3 /* Artist.swift */; };
 		45168D11201F61B300973CA3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45168D10201F61B300973CA3 /* MapViewController.swift */; };
+		45AE5A5A20230FA200DD1090 /* logo-admiral-freebee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */; };
+		45AE5A5C2023128100DD1090 /* my-band.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A5B2023128100DD1090 /* my-band.jpg */; };
+		45AE5A5E20231D1700DD1090 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AE5A5D20231D1700DD1090 /* LineUpTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		45168D02201F34F800973CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45168D0C201F4AAC00973CA3 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		45168D10201F61B300973CA3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-admiral-freebee.jpg"; sourceTree = "<group>"; };
+		45AE5A5B2023128100DD1090 /* my-band.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-band.jpg"; sourceTree = "<group>"; };
+		45AE5A5D20231D1700DD1090 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */,
+				45AE5A5B2023128100DD1090 /* my-band.jpg */,
 				39F91B482023034400939C50 /* close.png */,
 				397F7D0D2020B69F0044542B /* post1.jpg */,
 				397F7D0E2020B69F0044542B /* post2.jpg */,
@@ -148,6 +156,7 @@
 				397F7D132020BA530044542B /* TopPostTableViewCell.swift */,
 				397F7D152020BA6C0044542B /* PostTableViewCell.swift */,
 				3933AAFF2021E7E600FEC5FA /* PostDetailsViewController.swift */,
+				45AE5A5D20231D1700DD1090 /* LineUpTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -226,7 +235,9 @@
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
 				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
+				45AE5A5C2023128100DD1090 /* my-band.jpg in Resources */,
 				39F91B492023034400939C50 /* close.png in Resources */,
+				45AE5A5A20230FA200DD1090 /* logo-admiral-freebee.jpg in Resources */,
 				397F7D112020B69F0044542B /* post2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +254,7 @@
 				39234979201F69ED00351B2E /* BandInfoViewController.swift in Sources */,
 				39234975201F661D00351B2E /* LineUpViewController.swift in Sources */,
 				397F7D142020BA530044542B /* TopPostTableViewCell.swift in Sources */,
+				45AE5A5E20231D1700DD1090 /* LineUpTableViewCell.swift in Sources */,
 				45168D0D201F4AAC00973CA3 /* Artist.swift in Sources */,
 				45168CF9201F34F700973CA3 /* ViewController.swift in Sources */,
 				39234977201F668300351B2E /* NewsShareViewController.swift in Sources */,
