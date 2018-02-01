@@ -38,7 +38,7 @@ class NewsShareViewController: UIViewController , UITableViewDelegate , UITableV
         
         let post1:Post = Post.init(title: "Enjoy the Vistival", author: "Fanny", content: postTxt, date: datePost, image: postPic1)
         let post2:Post = Post.init(title: "Color mix at Vistival", author: "Ronny", content: postTxt, date: datePost, image: postPic2)
-        let post3:Post = Post.init(title: "See, Sun & Shrimps at Vistival", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post3:Post = Post.init(title: "See, Sun & Shrimps", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
         let post4:Post = Post.init(title: "Facebook 4", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
         let post5:Post = Post.init(title: "Facebook 5", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
         let post6:Post = Post.init(title: "Facebook 6", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
