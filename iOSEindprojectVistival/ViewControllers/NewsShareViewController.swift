@@ -39,31 +39,30 @@ class NewsShareViewController: UIViewController , UITableViewDelegate , UITableV
         let post1:Post = Post.init(title: "Enjoy the Vistival", author: "Fanny", content: postTxt, date: datePost, image: postPic1)
         let post2:Post = Post.init(title: "Color mix at Vistival", author: "Ronny", content: postTxt, date: datePost, image: postPic2)
         let post3:Post = Post.init(title: "See, Sun & Shrimps", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post4:Post = Post.init(title: "Facebook 4", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
-        let post5:Post = Post.init(title: "Facebook 5", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post6:Post = Post.init(title: "Facebook 6", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post7:Post = Post.init(title: "Facebook 7!", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
-        let post8:Post = Post.init(title: "Tweeter 1", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post9:Post = Post.init(title: "Tweeter 2", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post10:Post = Post.init(title: "Tweeter 3", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
-        let post11:Post = Post.init(title: "Tweeter 4", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post12:Post = Post.init(title: "Tweeter 5", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post13:Post = Post.init(title: "Tweeter 6", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post14:Post = Post.init(title: "Tweeter 7", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post15:Post = Post.init(title: "Instagram 1", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post16:Post = Post.init(title: "Instagram 2", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post17:Post = Post.init(title: "Instagram 3", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
-        let post18:Post = Post.init(title: "Instagram 4", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post19:Post = Post.init(title: "Instagram 5", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
-        let post20:Post = Post.init(title: "Instagram 6", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
-        let post21:Post = Post.init(title: "Instagram 7", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post4:Post = Post.init(title: "Post 4", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
+        let post5:Post = Post.init(title: "Post 5", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post6:Post = Post.init(title: "Post 6", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post7:Post = Post.init(title: "Post 7", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
+        let post8:Post = Post.init(title: "Post 8", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post9:Post = Post.init(title: "Post 9", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post10:Post = Post.init(title: "Post 10", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
+        let post11:Post = Post.init(title: "Post 11", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post12:Post = Post.init(title: "Post 12", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post13:Post = Post.init(title: "Post 13", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post14:Post = Post.init(title: "Post 14", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post15:Post = Post.init(title: "Post 15", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post16:Post = Post.init(title: "Post 16", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post17:Post = Post.init(title: "Post 17", author: "Dajian", content: postTxt, date: datePost, image: postPic1)
+        let post18:Post = Post.init(title: "Post 18", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post19:Post = Post.init(title: "Post 19", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
+        let post20:Post = Post.init(title: "Post 20", author: "Dajian", content: postTxt, date: datePost, image: postPic2)
+        let post21:Post = Post.init(title: "Post 21", author: "Dajian", content: postTxt, date: datePost, image: postPic3)
         
-        facebookList += [post1,post2,post3,post4,post5,post6,post7]
-        tweeterList += [post8,post9,post10,post11,post12,post13,post14]
-        instagramList += [post15,post16,post17,post18,post19,post20,post21]
-        
-        fullList += [post1,post2,post3,post4,post5,post6,post7,post8,post9,post10,post11,post12,post13,post14,post15,post16,post17,post18,post19,post20,post21]
-        currentList = fullList
+        facebookList += [post1,post2,post3,post4,post5,post6,post7,post8,post9,post10,post11,post12,post13,post14,post15,post16,post17,post18,post19,post20,post21]
+        tweeterList += [post1,post2,post3,post4,post5,post6,post7,post8,post9,post10,post11,post12,post13,post14,post15,post16,post17,post18,post19,post20,post21]
+        instagramList += [post1,post2,post3,post4,post5,post6,post7,post8,post9,post10,post11,post12,post13,post14,post15,post16,post17,post18,post19,post20,post21]
+
+        tableView.alpha = 0
     }
 
     override func didReceiveMemoryWarning() {
@@ -84,18 +83,21 @@ class NewsShareViewController: UIViewController , UITableViewDelegate , UITableV
         case 0:
             lbChannelName.text = "Tweeter Channel"
             currentList = tweeterList
+            tableView.alpha = 1
             tableView.reloadData()
         case 1:
             lbChannelName.text = "Instagram Channel"
             currentList = instagramList
+            tableView.alpha = 1
             tableView.reloadData()
         case 2:
             lbChannelName.text = "Facebook Channel"
             currentList = facebookList
+            tableView.alpha = 1
             tableView.reloadData()
         default:
             lbChannelName.text = "Vistival Channel"
-            currentList = fullList
+
     }
     
     }
