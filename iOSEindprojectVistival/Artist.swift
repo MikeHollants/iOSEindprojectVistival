@@ -16,16 +16,18 @@ class Artist {
     let website:String
     let musicPreview:String
     let logo:UIImage
-    let showtime:Date
+    let showtime:String
+    let location:String
         
-    init(name:String , intro:String , logo:String , website:String , musicPreview:String , showtime:Date){
+    init(name:String , intro:String , logo:UIImage, website:String , musicPreview:String , showtime:String, location:String){
         
         self.name = name
         self.intro = intro
-        self.logo = UIImage.init(named: logo)!
+        self.logo = logo
         self.website = website
         self.musicPreview = musicPreview
         self.showtime = showtime
+        self.location = location
     }
     
 }
