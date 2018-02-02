@@ -17,8 +17,9 @@ class Artist {
     let musicPreview:String
     let logo:UIImage
     let showtime:String
+    let location:String
         
-    init(name:String , intro:String , logo:UIImage , website:String , musicPreview:String , showtime:String){
+    init(name:String , intro:String , logo:UIImage , website:String , musicPreview:String , showtime:String, location:String){
         
         self.name = name
         self.intro = intro

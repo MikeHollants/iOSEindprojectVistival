@@ -10,11 +10,27 @@ import UIKit
 
 class BandInfoViewController: UIViewController {
 
+   
+    @IBOutlet weak var ivLogo: UIImageView!
+    @IBOutlet weak var lbBandName: UILabel!
+    @IBOutlet weak var lbShowtime: UILabel!
+    @IBOutlet weak var tvIntro: UITextView!
+    
+    var artist:Artist?
+    var showtime = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //Set a background image in place of the color
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        
+        showtime = "\(artist!.location) \(artist!.showtime)"
+        
+        lbBandName.text = artist?.name
+        ivLogo.image = artist?.logo
+        lbShowtime.text = showtime
+        tvIntro.text = artist?.intro
     }
 
     override func didReceiveMemoryWarning() {

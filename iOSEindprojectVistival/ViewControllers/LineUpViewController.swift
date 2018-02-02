@@ -138,14 +138,26 @@ class LineUpViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
 
-    /*
+   
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+     
+        let destination:BandInfoViewController = segue.destination as! BandInfoViewController
+
+        let cell:LineUpTableViewCell = (sender as? LineUpTableViewCell)!
+        var index = self.tableView.indexPath(for: cell)!
+        
+        switch index.section {
+        case 0:
+            destination.artist = currentStage1[index.row]
+        case 1:
+            destination.artist = currentStage2[index.row]
+        default:
+            print("can't get here")
+        }
+        
     }
-    */
+
 
 }
