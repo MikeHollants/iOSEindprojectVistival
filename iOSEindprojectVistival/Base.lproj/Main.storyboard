@@ -75,7 +75,7 @@
                                     <constraint firstAttribute="height" constant="50" id="qWa-eE-D3U"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" backgroundImage="DayOneb.png">
+                                <state key="normal" backgroundImage="day1-ico.png">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -90,7 +90,7 @@
                                     <constraint firstAttribute="height" constant="50" id="ogx-dx-2q9"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" backgroundImage="DayTwob.png">
+                                <state key="normal" backgroundImage="day2-ico.png">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -687,8 +687,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DayOneb.png" width="260" height="104"/>
-        <image name="DayTwob.png" width="513" height="232"/>
         <image name="VF-Facebook-logo.png" width="50" height="50"/>
         <image name="VF-iTunes-logo.png" width="80" height="60"/>
         <image name="VF-instagram-logo.png" width="50" height="50"/>
@@ -696,6 +694,8 @@
         <image name="Vistival-LS.png" width="375" height="667"/>
         <image name="c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png" width="92" height="92"/>
         <image name="close.png" width="50" height="50"/>
+        <image name="day1-ico.png" width="80" height="50"/>
+        <image name="day2-ico.png" width="80" height="50"/>
         <image name="house@2x.png" width="16" height="16"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="newspaper.png" width="26" height="26"/>
