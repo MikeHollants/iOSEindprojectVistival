@@ -656,7 +656,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="63O-74-7pe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.png" id="Cxf-b1-s6i"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house@2x.png" id="Cxf-b1-s6i"/>
                     <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZDD-0B-GBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -696,7 +696,7 @@
         <image name="Vistival-LS.png" width="375" height="667"/>
         <image name="c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png" width="92" height="92"/>
         <image name="close.png" width="50" height="50"/>
-        <image name="house.png" width="26" height="26"/>
+        <image name="house@2x.png" width="16" height="16"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="newspaper.png" width="26" height="26"/>
         <image name="play.png" width="26" height="26"/>
