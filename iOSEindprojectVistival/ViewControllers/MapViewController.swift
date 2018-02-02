@@ -17,13 +17,13 @@ class MapPoint: NSObject, MKAnnotation {
     
     var coordinate: CLLocationCoordinate2D
     var title: String?
-    let pinImage = UIImage(named: "Annotation-pic.png")
+    let mapPointImage = UIImage(named: "Annotation-pic.png")
     
-    init(coordinate: CLLocationCoordinate2D, title: String, pinImage: UIImage) {
+    init(coordinate: CLLocationCoordinate2D, title: String, mapPointImage: UIImage) {
         self.coordinate = coordinate
         self.title = title
-        }
     }
+}
 
     
     @IBOutlet weak var mapView: MKMapView!
@@ -33,21 +33,21 @@ class MapPoint: NSObject, MKAnnotation {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-            setup()
-            locationManager.delegate = self
-        }
+        setup()
+        locationManager.delegate = self
+    }
     
     func setup() {
 
         //punten op kaart aanmaken
-        let mp1 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133640, 2.669839), title: "Mainstage", pinImage: #imageLiteral(resourceName: "Annotation-pic.png") )
-        let mp2 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132442, 2.669345), title: "The Seahoarse Stage", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp3 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133128, 2.671019), title: "Flied Shlimp Food & Other Fish", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp4 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133048, 2.670976), title: "Fisherman's Fiend Booze & Barfs", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp5 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133115, 2.671341), title: "Restrooms Number 1", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp6 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132859, 2.668691), title: "Restrooms Number 2", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp7 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133014, 2.671545), title: "Fisht Aid EHBO Stand", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
-        let mp8 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132785, 2.671319), title: "Seagate", pinImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp1 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133640, 2.669839), title: "Mainstage", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png") )
+        let mp2 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132442, 2.669345), title: "The Seahoarse Stage", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp3 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133128, 2.671019), title: "Flied Shlimp Food & Other Fish", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp4 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133048, 2.670976), title: "Fisherman's Fiend Booze & Barfs", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp5 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133115, 2.671341), title: "Restrooms Number 1", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp6 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132859, 2.668691), title: "Restrooms Number 2", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp7 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.133014, 2.671545), title: "Fisht Aid EHBO Stand", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
+        let mp8 = MapPoint.init(coordinate: CLLocationCoordinate2DMake(51.132785, 2.671319), title: "Seagate", mapPointImage: #imageLiteral(resourceName: "Annotation-pic.png"))
         //punt effectief toevoegen
         mapView.addAnnotation(mp1)
         mapView.addAnnotation(mp2)
@@ -66,11 +66,7 @@ class MapPoint: NSObject, MKAnnotation {
     }
 
     //pin personaliseren?
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?{
-        if !(annotation is MKPointAnnotation) {
-            return nil
-        }
-        
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let annotationIdentifier = "AnnotationIdentifier"
         var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: annotationIdentifier)
         
@@ -82,8 +78,8 @@ class MapPoint: NSObject, MKAnnotation {
             annotationView!.annotation = annotation
         }
         
-        let pinImage = UIImage(named: "Annotation-pic.png")
-        annotationView!.image = pinImage
+        let mapPointImage = UIImage(named: "Annotation-pic.png")
+        annotationView!.image = mapPointImage
         
         return annotationView
     }
