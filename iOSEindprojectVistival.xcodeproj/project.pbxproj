@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39106E492024634D00B98815 /* day2-icob.png in Resources */ = {isa = PBXBuildFile; fileRef = 39106E482024634D00B98815 /* day2-icob.png */; };
 		391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A562B201FCFC2003127FD /* Vistival-LS.png */; };
 		391A5631201FD326003127FD /* Annotation-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5630201FD325003127FD /* Annotation-pic.png */; };
 		391A5636201FD6F9003127FD /* day2-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A5634201FD6F8003127FD /* day2-ico.png */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39106E482024634D00B98815 /* day2-icob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day2-icob.png"; sourceTree = "<group>"; };
 		391A562B201FCFC2003127FD /* Vistival-LS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vistival-LS.png"; sourceTree = "<group>"; };
 		391A5630201FD325003127FD /* Annotation-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation-pic.png"; sourceTree = "<group>"; };
 		391A5634201FD6F8003127FD /* day2-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day2-ico.png"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				39106E482024634D00B98815 /* day2-icob.png */,
 				45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */,
 				45AE5A5B2023128100DD1090 /* my-band.jpg */,
 				39F91B482023034400939C50 /* close.png */,
@@ -222,6 +225,7 @@
 			files = (
 				394FC2FC20206170005E5C63 /* background.png in Resources */,
 				397F7D122020B69F0044542B /* post3.jpg in Resources */,
+				39106E492024634D00B98815 /* day2-icob.png in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
 				397F7D102020B69F0044542B /* post1.jpg in Resources */,
