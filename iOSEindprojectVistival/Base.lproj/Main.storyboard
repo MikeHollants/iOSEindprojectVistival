@@ -90,7 +90,7 @@
                                     <constraint firstAttribute="height" constant="50" id="ogx-dx-2q9"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="5" height="5"/>
-                                <state key="normal" backgroundImage="day2-icob.png">
+                                <state key="normal" backgroundImage="DayTwob.png">
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -696,8 +696,10 @@
         <image name="Vistival-LS.png" width="375" height="667"/>
         <image name="c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png" width="92" height="92"/>
         <image name="close.png" width="50" height="50"/>
-        <image name="day1-ico.png" width="80" height="50"/>
-        <image name="day2-icob.png" width="80" height="50"/>
+        <image name="house.png" width="26" height="26"/>
+        <image name="magnifying_glass.png" width="26" height="26"/>
+        <image name="newspaper.png" width="26" height="26"/>
+        <image name="play.png" width="26" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="me1-Fw-fEL"/>
