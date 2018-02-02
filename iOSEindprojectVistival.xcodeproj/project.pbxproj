@@ -39,6 +39,13 @@
 		45AE5A5A20230FA200DD1090 /* logo-admiral-freebee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */; };
 		45AE5A5C2023128100DD1090 /* my-band.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A5B2023128100DD1090 /* my-band.jpg */; };
 		45AE5A5E20231D1700DD1090 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AE5A5D20231D1700DD1090 /* LineUpTableViewCell.swift */; };
+		45AE5A6620245B2300DD1090 /* c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A6520245B2200DD1090 /* c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png */; };
+		45AE5A6820245FC000DD1090 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A6720245FC000DD1090 /* magnifying_glass.png */; };
+		45AE5A6A2024600600DD1090 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A692024600500DD1090 /* play.png */; };
+		45AE5A6C2024604000DD1090 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A6B2024604000DD1090 /* newspaper.png */; };
+		45AE5A6E2024609900DD1090 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A6D2024609800DD1090 /* house.png */; };
+		45AE5A712024621000DD1090 /* DayOneb.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A6F2024620F00DD1090 /* DayOneb.png */; };
+		45AE5A722024621000DD1090 /* DayTwob.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AE5A702024620F00DD1090 /* DayTwob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +83,13 @@
 		45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-admiral-freebee.jpg"; sourceTree = "<group>"; };
 		45AE5A5B2023128100DD1090 /* my-band.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-band.jpg"; sourceTree = "<group>"; };
 		45AE5A5D20231D1700DD1090 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
+		45AE5A6520245B2200DD1090 /* c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png"; sourceTree = "<group>"; };
+		45AE5A6720245FC000DD1090 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifying_glass.png; sourceTree = "<group>"; };
+		45AE5A692024600500DD1090 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		45AE5A6B2024604000DD1090 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		45AE5A6D2024609800DD1090 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		45AE5A6F2024620F00DD1090 /* DayOneb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DayOneb.png; sourceTree = "<group>"; };
+		45AE5A702024620F00DD1090 /* DayTwob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DayTwob.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,13 @@
 		391A562F201FD04B003127FD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				45AE5A6F2024620F00DD1090 /* DayOneb.png */,
+				45AE5A702024620F00DD1090 /* DayTwob.png */,
+				45AE5A6B2024604000DD1090 /* newspaper.png */,
+				45AE5A692024600500DD1090 /* play.png */,
+				45AE5A6D2024609800DD1090 /* house.png */,
+				45AE5A6720245FC000DD1090 /* magnifying_glass.png */,
+				45AE5A6520245B2200DD1090 /* c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png */,
 				45AE5A5920230FA200DD1090 /* logo-admiral-freebee.jpg */,
 				45AE5A5B2023128100DD1090 /* my-band.jpg */,
 				39F91B482023034400939C50 /* close.png */,
@@ -224,8 +245,12 @@
 				397F7D122020B69F0044542B /* post3.jpg in Resources */,
 				45168D01201F34F700973CA3 /* LaunchScreen.storyboard in Resources */,
 				391A5631201FD326003127FD /* Annotation-pic.png in Resources */,
+				45AE5A722024621000DD1090 /* DayTwob.png in Resources */,
 				397F7D102020B69F0044542B /* post1.jpg in Resources */,
+				45AE5A6620245B2300DD1090 /* c3e6b6dd-2c73-465c-a94a-054ba43d4d86.png in Resources */,
+				45AE5A712024621000DD1090 /* DayOneb.png in Resources */,
 				394FC303202064B4005E5C63 /* VF-iTunes-logo.png in Resources */,
+				45AE5A6A2024600600DD1090 /* play.png in Resources */,
 				391A5636201FD6F9003127FD /* day2-ico.png in Resources */,
 				397F7D0C2020A8AD0044542B /* reel-big-fish-name.png in Resources */,
 				394FC2FE20206442005E5C63 /* VF-logoTweeter.png in Resources */,
@@ -234,11 +259,14 @@
 				391A5637201FD6F9003127FD /* day1-ico.png in Resources */,
 				391A562D201FCFC2003127FD /* Vistival-LS.png in Resources */,
 				45168CFC201F34F700973CA3 /* Main.storyboard in Resources */,
+				45AE5A6E2024609900DD1090 /* house.png in Resources */,
 				394FC304202064B4005E5C63 /* VF-Facebook-logo.png in Resources */,
 				45AE5A5C2023128100DD1090 /* my-band.jpg in Resources */,
 				39F91B492023034400939C50 /* close.png in Resources */,
 				45AE5A5A20230FA200DD1090 /* logo-admiral-freebee.jpg in Resources */,
 				397F7D112020B69F0044542B /* post2.jpg in Resources */,
+				45AE5A6820245FC000DD1090 /* magnifying_glass.png in Resources */,
+				45AE5A6C2024604000DD1090 /* newspaper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
